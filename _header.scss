@@ -1,0 +1,25 @@
+@import './variables';
+header {
+	a {
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: none;
+			color: $primary-text;
+		}
+	}
+	p {
+		font-family: $primary-font;
+	}
+	h1 {
+		font-weight: 700;
+		font-size: 3em;
+		margin: 0em;
+		letter-spacing: 0.2em;
+	}
+	.site-description {
+		font-size: 1.4em;
+		font-weight: 500;
+		letter-spacing: 0.15em;
+	}
+}
