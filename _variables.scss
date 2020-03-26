@@ -1,3 +1,9 @@
+//breakpoints media queries
+$breakpoints: (
+	phone: 340px,
+	tablet: 768px,
+	desktop: 1024px
+) !default;
 //text
 $primary-text: hsl(29, 73%, 57%);
 $primary-font: 'Baloo Da 2', 'Arial', 'Sans-serif';
@@ -7,6 +13,9 @@ $primary-background: hsl(29, 73%, 95%);
 
 //menu
 $menu-background: hsl(29, 73%, 57%);
-$menu-background-hover: hsl(29, 73%, 37%);
+$menu-border: 1px solid hsl(27, 48%, 28%);
+$menu-background-hover: hsl(197, 99%, 37%);
+$menu-background-hover-gradient: linear-gradient(#04acec, #0186ba);
 $menu-item-color: hsl(29, 73%, 95%);
 $menu-item-hover-color: hsl(0, 0%, 100%);
+$menu-gradient: linear-gradient(hsl(27, 48%, 28%), (hsl(27, 48%, 68%)));
